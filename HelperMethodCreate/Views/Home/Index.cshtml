@@ -1,0 +1,27 @@
+﻿@using HelperMethodCreate.Library
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>  
+    <style>
+        #button1{
+            background-color:red
+        }
+        #button2 {
+            background-color: blue
+        }
+    </style>
+    <div> 
+        @Html.Button("button1",ButtonType.reset, "Gönder")
+        @Html.Button("button2","btn",ButtonType.button,"Gönder2")
+    </div>
+</body>
+</html>
